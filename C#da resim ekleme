@@ -6,4 +6,4 @@
                pictureBox1.Image = new Bitmap(openFileDialog1.OpenFile());
               
 
-            }
+            }s
