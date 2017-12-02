@@ -1,0 +1,9 @@
+        //picturebox a resim ekleme
+            openFileDialog1.Title = "Dosya seçiniz";
+            openFileDialog1.Filter = "Text files (*.jpg)|*.jpg|Tüm Dosyalar(*.*)|*.*";
+            if (openFileDialog1.ShowDialog()==DialogResult.OK)
+            {
+               pictureBox1.Image = new Bitmap(openFileDialog1.OpenFile());
+              
+
+            }
