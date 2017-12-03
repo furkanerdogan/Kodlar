@@ -1,0 +1,4 @@
+orm1'den başka bir formu açarken kullanamazsın. Çünkü Form1 bir nevi uygulamayı temsil eder.
+Dediğin gibi, this.Close() dersen program kapanır. O yüzden this.Hide() demen lazım, sadece Form1 için.
+Bunun yanında, bu sefer tüm formları kapattığında uygulama açık kalır, çünkü Form1 hide durumunda kalmıştır.
+Diğer formların OnClosing veya OnClosed olaylarına Application.Exit yazman gerekir. Kolay gelsin...
