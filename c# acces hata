@@ -1,0 +1,2 @@
+Eğer db olarak Access kullanır ve Access veri tabanınız kendi kendine siliniyor ise bu durumu Solution Explorer kısmındaki db nize sağ tık yaparak Properties i açınız.
+Oradan copy if newer ı seçerek sorununuzu halletmiş oluyorsunuz.
