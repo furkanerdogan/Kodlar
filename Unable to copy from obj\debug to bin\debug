@@ -1,0 +1,3 @@
+There can be several reasons for that. One of them: DLL could be loaded by your own application process which was not terminated and runs in background. Check it up using Ctrl+Alt+Delete => Task Manager.
+In certain situation, Visual Studio can keep it loaded with its debug host; try to close all of its instances. It could be something else.
+If you still did not find the reason, some system utility can help. Try "WhoLockMe.exe" — it easily solves such problems.
